@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>course</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/all.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+
+    <!--page loader-->
+    <div class="page-loader">
+        <div class="spin-item">
+            <span></span>
+        </div>
+    </div>
+
+        <div class="wrapper">
+            <!--start header-->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">together</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="../index.html" class="nav-link">home</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">courses</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="courses.html">courses</a></li>
+                                        <li><a class="dropdown-item" href="coursedetails.html">course details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="login.html">log in</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">sign up</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </nav>
+            </header>
+            <!--start header-->
+
+            <!--start breadcrumb-->
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">courses</li>
+                    </ol>
+                </nav>
+            </div>
+            <!--end breadcrumb-->
+
+            <!-- start tabs -->
+            <div class="container courses-page">
+            <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="web-development-tab" data-bs-toggle="tab" data-bs-target="#web-development" type="button" role="tab" aria-controls="web-development" aria-selected="true">web development</button>
+                    <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">design</button>
+                    <button class="nav-link" id="security-tab" data-bs-toggle="tab" data-bs-target="#security" type="button" role="tab" aria-controls="security" aria-selected="false">security</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="web-development" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="courses">
+                        <div class="row courses-details justify-content-center">
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/course1.jpg" alt="course1">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>html for beginners</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(230)</span>
+                                </div>
+                                <div class="price">25$</div>
+                            </div>
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/course2.jpg" alt="course2">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>css for beginners</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(580)</span>
+                                </div>
+                                <div class="price">30$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/course3.jpg" alt="course3">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>JS for beginners</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(430)</span>
+                                </div>
+                                <div class="price">50$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/course4.jpg" alt="course4">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>vue for beginners</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(270)</span>
+                                </div>
+                                <div class="price">40$</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="courses">
+                        <div class="row courses-details justify-content-center">
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/design1.jpg" alt="course1">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>design one</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(230)</span>
+                                </div>
+                                <div class="price">25$</div>
+                            </div>
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/design2.jpg" alt="course2">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>design two</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(580)</span>
+                                </div>
+                                <div class="price">30$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/design3.jpg" alt="course3">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>design three</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(430)</span>
+                                </div>
+                                <div class="price">50$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/design4.jpg" alt="course4">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>design four</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(270)</span>
+                                </div>
+                                <div class="price">40$</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="courses">
+                        <div class="row courses-details justify-content-center">
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/secu1.jpg" alt="course1">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>security one</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(230)</span>
+                                </div>
+                                <div class="price">25$</div>
+                            </div>
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/secu2.jpg" alt="course2">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>security two</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(580)</span>
+                                </div>
+                                <div class="price">30$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/secu3.jpg" alt="course3">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>security three</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(430)</span>
+                                </div>
+                                <div class="price">50$</div>
+                            </div>
+        
+                            <div class="course-item col-md-3 col-sm-6">
+                                <div class="course-img">
+                                    <img src="../images/secu4.jpg" alt="course4">
+                                    <div class="overlay">
+                                        <a href="coursedetails.html">view course</a>
+                                    </div>
+                                </div>
+                                <h4>security four</h4>
+                                <div class="user">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>john doe</span>
+                                </div>
+                                <div class="review">
+                                    <span>(4.5)</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(270)</span>
+                                </div>
+                                <div class="price">40$</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                </div>
+            </div>
+            <!-- end tabs -->
+
+            
+            <!-- start footer-->
+            <footer>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3 col-sm-6">
+                            <h2>together</h2>
+                            <ul>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">what we offer</a></li>
+                                <li><a href="#">careers</a></li>
+                                <li><a href="#">certificates</a></li>
+                                <li><a href="#">blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <h2>learning</h2>
+                            <ul>
+                                <li><a href="#">get the app</a></li>
+                                <li><a href="#">testimonials</a></li>
+                                <li><a href="#">pricing</a></li>
+                                <li><a href="#">faq</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <h2>more</h2>
+                            <ul>
+                                <li><a href="#">affiliates</a></li>
+                                <li><a href="#">become a course creator</a></li>
+                                <li><a href="#">free personality test</a></li>
+                                <li><a href="#">training webinars</a></li>
+                                <li><a href="#">help the support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <h2>get in touch</h2>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i>facebook</a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i>twitter</a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i>youtube</a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i>linkedin</a></li>
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+
+                    <!-- start switcher -->
+        <section class="switcher text-capitalize">
+            <div class="switcher-icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <h2>style switcher</h2>
+            <div class="theme-colors">
+                <h5>theme colors</h5>
+                <div class="colors">
+                    <button type="button" data-color="#5885af" data-hovercolor="#90adc6" class="color1 theme-color-item"></button>
+                    <button type="button" data-color="#df9d94" data-hovercolor="#e7aea6" class="color2 theme-color-item"></button>
+                    <button type="button" data-color="#07BB9C" data-hovercolor="#b3f1c6" class="color3 theme-color-item"></button>
+                    <button type="button" data-color="#A58CB3" data-hovercolor="#c5b0d1" class="color4 theme-color-item"></button>
+                </div>
+            </div>
+            <div class="switcher-item">
+                <div class="form-check form-switch darkmode">
+                    <input class="form-check-input check-dark" type="checkbox" role="switch" id="dark-mode">
+                    <label class="form-check-label" for="dark-mode">dark mode</label>
+                </div>
+            </div>
+            <div class="switcher-item">
+                <div class="form-check form-switch glasseffect">
+                    <input class="form-check-input check-glass" type="checkbox" role="switch" id="glass-effect">
+                    <label class="form-check-label" for="glass-effect">glass effect</label>
+                </div>
+            </div>
+        </section>
+        <!-- end switcher -->
+        
+        </div>
+        <script src="../js/all.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+</html>
