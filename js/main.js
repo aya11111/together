@@ -80,7 +80,7 @@ function darkLightMode() {
             document.body.classList.add("dark-ground");
             document.querySelector(".switcher").classList.add("dark-ground");
             if(document.querySelector(".wrapper")){
-                document.querySelector(".wrapper").style.backgroundColor = "rgba(0,0,0,.4)";
+                document.querySelector(".wrapper").style.backgroundColor = "rgba(0,0,0,.5)";
             console.log("true")};
             let input = document.querySelectorAll(".form-control");
             for (let i = 0; i < input.length; i++) {
@@ -92,7 +92,7 @@ function darkLightMode() {
             document.querySelector(".switcher").classList.remove("dark-ground");
             
             if(document.querySelector(".wrapper")){
-                document.querySelector(".wrapper").style.backgroundColor = "rgba(255,255,255,.4)";}
+                document.querySelector(".wrapper").style.backgroundColor = "rgba(255,255,255,.5)";}
                 
             
             let input = document.querySelectorAll(".form-control");
@@ -118,7 +118,7 @@ if(localStorage.getItem("dark") === "true") {
             localStorage.setItem("dark", "true");
             document.body.classList.add("dark-ground");
             if(document.querySelector(".wrapper")){
-            document.querySelector(".wrapper").style.backgroundColor = "rgba(0,0,0,.4)";}
+            document.querySelector(".wrapper").style.backgroundColor = "rgba(0,0,0,.5)";}
             document.querySelector(".switcher").classList.add("dark-ground");
             
             let input = document.querySelectorAll(".form-control");
